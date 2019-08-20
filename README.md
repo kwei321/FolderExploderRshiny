@@ -24,10 +24,10 @@ For example, start with "Accounting", contains "July", "csv" will explode files 
 	 - Option 1: Download the repository and run the app using Rstudio
 	 - Option 2: install shiny package in R and use the function runGithub:
 
-	 ```r
-	if (!require('shiny')) install.packages("shiny")
-	shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
-	 ```
+```r
+if (!require('shiny')) install.packages("shiny")
+shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
+```
 	 
 	2.3. Enter the source folder and destination folder. The destination folder must be created first. Select the depth of explosion. If needed, use the advanced option to extract filename with certain pattern
 	2.4. Hit the Explode Folder button. 
