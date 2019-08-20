@@ -42,9 +42,8 @@ shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
 
 ### 4. Examples: 
 **4.1 Example 1**
------------------------------------------------------------------------
 
-**Source Folder Structure**
+Source Folder Structure
 
 │  dummyfile
 │  screenshot.pdf
@@ -85,10 +84,10 @@ shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
         important dummy.xlsx
         New Text Document.txt
         Rshiny.html
------------------------------------------------------------------------
+
 
 **4.2 Example 2**
------------------------------------------------------------------------
+
 **Source folder structure same as above**
 	
 **Destination Folder Structure after exploding by depth of 2**
@@ -100,7 +99,7 @@ shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
     Rshiny.html
 
 No subfolders exist
------------------------------------------------------------------------
+
 
 **4.3 Example 3**
 
