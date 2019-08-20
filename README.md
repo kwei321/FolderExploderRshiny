@@ -43,7 +43,9 @@ shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
 ### 4. Examples: 
 **4.1 Example 1**
 -----------------------------------------------------------------------
+
 **Source Folder Structure**
+
 │  dummyfile
 │  screenshot.pdf
 │
@@ -67,6 +69,7 @@ shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
             Rshiny.html
 	    
 **Destination Folder Structure after exploding by depth of 1**
+
 │  dummy1 textfile.txt
 │  dummy1 textfile2.txt
 │  dummy2 important.xlsx
@@ -104,6 +107,7 @@ No subfolders exist
 **Source folder structure same as above**
 
 **Destination Folder Structure after exploding by depth of 2, and subseting file contains the word "accounting" and ends with ".txt"**
+
     Accounting August.txt
     Accounting July.txt
 
