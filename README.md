@@ -43,47 +43,29 @@ shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
 ### 4. Examples: 
 **4.1 Example 1**
 
-Source Folder Structure
+**Source Folder Structure**
 
-│  dummyfile
-
-│  screenshot.pdf
-
-│
-
-├─dummy1
-
-│  │  dummy1 textfile.txt
-
-│  │  dummy1 textfile2.txt
-
-│  │  New Text Document.txt
-
-│  │
-
-│  └─New folder
-
-│          Accounting August.txt
-
-│          Accounting July.txt
-
-│
-
-└─dummy2
-
-    │  dummy2 important.xlsx
-    
-    │  dummy2 Rshiny.html
-    
-    │  New Text Document.txt
-    
-    │
-    
-    └─New folder
-    
-            important dummy.xlsx
-            New Text Document.txt
-            Rshiny.html
+	│  dummyfile
+	│  screenshot.pdf
+	│
+	├─dummy1
+	│  │  dummy1 textfile.txt
+	│  │  dummy1 textfile2.txt
+	│  │  New Text Document.txt
+	│  │
+	│  └─New folder
+	│          Accounting August.txt
+	│          Accounting July.txt
+	│
+	└─dummy2
+	    │  dummy2 important.xlsx
+	    │  dummy2 Rshiny.html
+	    │  New Text Document.txt
+	    │
+	    └─New folder
+		    important dummy.xlsx
+		    New Text Document.txt
+		    Rshiny.html
 	    
 **Destination Folder Structure after exploding by depth of 1**
 
