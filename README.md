@@ -69,21 +69,21 @@ shiny::runGitHub(repo = "FolderExploderRshiny", username = "kwei321")
 	    
 **Destination Folder Structure after exploding by depth of 1**
 
-│  dummy1 textfile.txt
-│  dummy1 textfile2.txt
-│  dummy2 important.xlsx
-│  dummy2 Rshiny.html
-│  New Text Document (1).txt
-│  New Text Document.txt
-│
-├─New folder
-│      Accounting August.txt
-│      Accounting July.txt
-│
-└─New folder (1)
-        important dummy.xlsx
-        New Text Document.txt
-        Rshiny.html
+	│  dummy1 textfile.txt
+	│  dummy1 textfile2.txt
+	│  dummy2 important.xlsx
+	│  dummy2 Rshiny.html
+	│  New Text Document (1).txt
+	│  New Text Document.txt
+	│
+	├─New folder
+	│      Accounting August.txt
+	│      Accounting July.txt
+	│
+	└─New folder (1)
+		important dummy.xlsx
+		New Text Document.txt
+		Rshiny.html
 
 
 **4.2 Example 2**
