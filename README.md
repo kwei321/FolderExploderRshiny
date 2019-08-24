@@ -1,4 +1,4 @@
-FolderExploderRshiny 
+# FolderExploderRshiny 
 A utility to explode folder with Rshiny as GUI
 
 ### 1.Motivation:
